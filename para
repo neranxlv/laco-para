@@ -1,0 +1,22 @@
+algoritmo "laco para"
+
+var
+  controle: inteiro
+  notas: vetor[0..3] inteiro
+  media: real
+
+inicio
+   
+para controle de 0 ate 3 faca
+  escreval("nota ", controle + 1)
+  leia(notas[controle])
+fimpara
+
+para controle de 0 ate 3 faca 
+  escreval("Valor digitado: ", controle +1, ": " notas[controle])
+  media <- media + notas[controle]
+fimpara
+
+escreva("media: ", media)
+
+fimalgoritmo
