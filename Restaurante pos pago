@@ -1,0 +1,25 @@
+algoritmo "Restaurante pos pago"
+
+var
+  conta: inteiro
+  pedir_conta: logico
+  prato: caractere
+  valor: inteiro
+
+inicio
+
+valor <- 10
+
+repita
+  escreval("Digite seu prato: ")
+  leia(prato)
+  conta <- conta + valor
+
+  escreval("Quer finalizar a conta?")
+  leia(pedir_conta)
+
+ate pedir_conta
+
+escreval("O Total a pagar é ", conta, " reais")
+
+fimalgoritmo
